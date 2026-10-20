@@ -1,0 +1,23 @@
+
+h1{
+    color: #D40000;
+    background-color: #ffd9e6;
+    width: 90%;
+    margin: 20px auto 0;
+    text-align: center;
+}
+hr{
+    width: 55%;
+    border-color: #0033cc;
+}
+p{
+    font-style: italic;
+    text-align: center;
+}
+.Khung{
+    background-color: #FFFDE7;
+    border: 1px solid #9E9E9E;
+    width: 55%;
+    margin: auto;
+    
+}

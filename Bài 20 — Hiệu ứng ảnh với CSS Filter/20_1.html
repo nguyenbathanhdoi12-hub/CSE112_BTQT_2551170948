@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 20 - Hiệu ứng ảnh với CSS Filter</title>
+    <link rel="stylesheet" href="20_2.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="image-box">
+                <img id="roseImg" src="hoahong.gif" alt="Hoa hồng">
+            </div>
+            <div class="title-text">Special For You</div>
+        </div>
+
+        <div class="button-bar">
+            <button class="filter-btn active" onclick="applyFilter('gray', this)">Gray</button>
+            <button class="filter-btn" onclick="applyFilter('xray', this)">Xray</button>
+            <button class="filter-btn" onclick="applyFilter('invert', this)">Invert</button>
+            <button class="filter-btn" onclick="applyFilter('fliph', this)">FlipH</button>
+            <button class="filter-btn" onclick="applyFilter('flipv', this)">FlipV</button>
+            <button class="filter-btn" onclick="applyFilter('glow', this)">Glow</button>
+            <button class="filter-btn" onclick="applyFilter('shadow', this)">Shadow</button>
+            <button class="filter-btn" onclick="applyFilter('bold-shadow', this)">Bold Shadow</button>
+            <button class="filter-btn" onclick="applyFilter('drop-shadow', this)">DropShadow</button>
+            <button class="filter-btn" onclick="applyFilter('blur', this)">Blur</button>
+            <button class="filter-btn" onclick="applyFilter('mask', this)">Mask</button>
+            <button class="filter-btn" onclick="applyFilter('alpha', this)">Alpha</button>
+            <button class="filter-btn" onclick="applyFilter('normal', this)">Normal</button>
+        </div>
+    </div>
+
+    <script src="20_3.js"></script>
+</body>
+</html>

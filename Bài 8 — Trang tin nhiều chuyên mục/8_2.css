@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border: 1px solid #dcdcdc;
+    padding: 20px;
+}
+
+/* Tiêu đề trang */
+.page-title {
+    color: #1668C1;
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #1668C1;
+    margin-bottom: 20px;
+}
+
+/* Bố cục Flexbox 2 cột[cite: 2] */
+.main-layout {
+    display: flex;
+    gap: 20px;
+}
+
+/* Cột trái - Menu dọc[cite: 1, 2] */
+.sidebar {
+    width: 220px;
+    flex-shrink: 0;
+}
+
+.menu-title {
+    color: #888;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar ul li {
+    margin-bottom: 8px;
+}
+
+.sidebar ul li a {
+    color: #1668C1;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.sidebar ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Cột phải - Nội dung chính[cite: 1, 2] */
+.content {
+    flex-grow: 1;
+}
+
+/* Thanh tiêu đề chuyên mục[cite: 2] */
+.category-header {
+    background-color: #1668C1;
+    color: #FFFFFF;
+    padding: 8px 12px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 4px; /* Bo góc nhẹ */
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.category-header:first-of-type {
+    margin-top: 0;
+}
+
+/* Khung từng bài viết[cite: 1, 2] */
+.article {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px dashed #e0e0e0; /* Đường kẻ mảnh[cite: 2] */
+}
+
+.article:last-of-type {
+    border-bottom: none;
+}
+
+.article-body {
+    flex: 1;
+}
+
+.article-title {
+    color: #1668C1;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+.article-desc {
+    font-size: 13px;
+    color: #444;
+    line-height: 1.4;
+}
+
+/* Ảnh minh họa bài viết[cite: 2] */
+.article-img {
+    width: 140px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 8px; /* Bo góc ảnh[cite: 2] */
+    flex-shrink: 0;
+}
+
+/* Nút Về đầu trang[cite: 2] */
+.top-link {
+    text-align: right;
+    margin-top: -5px;
+    margin-bottom: 15px;
+}
+
+.top-link a {
+    color: #1668C1;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.top-link a:hover {
+    text-decoration: underline;
+}

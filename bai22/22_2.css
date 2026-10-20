@@ -1,0 +1,88 @@
+:root {
+    --nen: #f8fafc;
+    --chu: #0f172a;
+    --the: #ffffff;
+    --vien: #e2e8f0;
+    --nhan: #2563eb;
+    --phu: #64748b;
+}
+body.toi {
+    --nen: #0f172a;
+    --chu: #e2e8f0;
+    --the: #1e293b;
+    --vien: #334155;
+    --nhan: #60a5fa;
+    --phu: #94a3b8;
+}
+body {
+    margin: 0;
+    padding: 16px;
+    background: var(--nen);
+    color: var(--chu);
+    font-family: Arial, sans-serif;
+    transition: background 0.4s, color 0.4s;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: 900px;
+    margin: 0 auto 20px;
+}
+h1 {
+    margin: 0;
+    font-size: 24px;
+}
+#gat {
+    width: 64px;
+    height: 34px;
+    border: 0;
+    border-radius: 34px;
+    background: #2563eb;
+    position: relative;
+    cursor: pointer ;
+    transform: background 0.4s;
+    flex-shrink: 0;
+}
+#gat::after {
+    content: "";
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background: #fff;
+    transform: transform 0.3s;
+}
+body.toi #gat {
+    background: #60a5fa;
+
+}
+body.toi #gat::after {
+    transform: translate(30px);
+}
+main {
+    max-width: 900px;
+    margin: 0 auto;
+}
+article {
+    background: var(--the);
+    border: 1px solid var(--vien);
+    border-radius: 10px;
+    padding: 16px 20px;
+    margin-bottom:16px ;
+    transition: background 0.4s, border-color 0.4s;
+}
+article h2 {
+    color: var(--nhan);
+    margin: 0 0 8px;
+    font-size: 19px;
+    transition: color 0.4s;
+}
+article p {
+    margin: 0;
+    line-height: 1.6;
+}
+#ghichu {
+    color: var(--phu);
+}

@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fcf8f2;
+    padding: 20px;
+}
+
+.khung {
+    max-width: 500px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    border: 1px solid #f0e6de;
+}
+
+.tieude h1 {
+    color: #b95d44;
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.tieude p {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.noidung > div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 18px;
+}
+
+.noidung label {
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 6px;
+    color: #333;
+}
+
+.noidung input {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.thongbao {
+    margin-top: 5px;
+    font-size: 13px;
+}
+
+.hoten.dung input, 
+.email.dung input, 
+.mk.dung input, 
+.xacnhan_mk.dung input {
+    border-color: #2e7d32;
+    background-color: #f4fff4;
+}
+
+.hoten.dung .thongbao, 
+.email.dung .thongbao, 
+.mk.dung .thongbao, 
+.xacnhan_mk.dung .thongbao {
+    color: #2e7d32;
+}
+
+.hoten.sai input, 
+.email.sai input, 
+.mk.sai input, 
+.xacnhan_mk.sai input {
+    border-color: #d32f2f;
+    background-color: #fff8f8;
+}
+
+.hoten.sai .thongbao, 
+.email.sai .thongbao, 
+.mk.sai .thongbao, 
+.xacnhan_mk.sai .thongbao {
+    color: #d32f2f;
+}
+
+.nut_dangky button {
+    width: 100%;
+    background-color: #c44e21;
+    color: white;
+    border: none;
+    padding: 14px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.2s;
+}
+
+.nut_dangky button:hover {
+    background-color: #a83f18;
+}

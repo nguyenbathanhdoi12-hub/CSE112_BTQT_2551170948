@@ -1,0 +1,80 @@
+.body{
+    background-color: white;
+    color: wihte;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container{
+    text-align: center;
+    max-width: 700px;
+}
+
+.card{
+    background-color: #1c2226;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 15px gainsboro;
+}
+
+.image-box img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.title-text {
+    margin-top: 15px;
+    font-style: italic;
+    font-size: 22px;
+    background: linear-gradient(#ffd700,#ffbb00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.button-bar{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+}
+
+.filter-btn{
+    background-color: #1c2226;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 13px;
+    transition: background 0.2s;
+}
+
+.filter-btn:hober{
+    background-color: #374151;
+}
+
+.filter-btn.active{
+    background-color: #0d6efd;
+}
+
+/* Các lớp hiệu ứng ảnh */
+.effect-gray { filter: grayscale(100%); }
+.effect-xray { filter: grayscale(100%) invert(100%); }
+.effect-invert { filter: invert(100%); }
+.effect-fliph { transform: scaleX(-1); }
+.effect-flipv { transform: scaleY(-1); }
+.effect-glow { filter: drop-shadow(0 0 10px #ff00de); }
+.effect-shadow { filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.8)); }
+.effect-bold-shadow { filter: drop-shadow(10px 10px 2px black); }
+.effect-drop-shadow { filter: drop-shadow(4px 4px 10px #0d6efd); }
+.effect-blur { filter: blur(3px); }
+.effect-mask { opacity: 0.6; mix-blend-mode: luminosity; }
+.effect-alpha { opacity: 0.4; }
+.effect-normal { filter: none; transform: none; opacity: 1; }

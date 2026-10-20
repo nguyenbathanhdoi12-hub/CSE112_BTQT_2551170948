@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    line-height: 1,6;
+    margin: 0;
+    padding: 40px;
+    background-color: white;
+}
+
+.khung{
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgb(255, 240, 221);
+    padding: 40px;
+    border-radius: 8px;
+}
+
+h1{
+    color: #e65100;
+    font-size: 32px;
+    margin-bottom: 0;
+}
+
+h2{
+    color: #e65100;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.noidung{
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.anh_hoa{
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 6px;
+    width: 220px;
+    border-radius: 6px;
+}
+
+.noidung p:first-of-type{
+    margin-top: 0;
+}
+
+.noidung p:first-of-type::first-letter{
+    font-size: 48px;
+    float: left;
+    line-height: 0.8;
+    margin-top: 0;
+    padding-top: 0;
+    padding-right: 8px;
+    padding-left: 2px;
+    color: #e65100;
+    font-weight: bold;
+}
+
+.noidung p{
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.khoi_huongvi {
+    border: 1px solid  #2E7D32;
+    background-color:#f4fbf4 ;
+    padding:20px;
+    border-radius: 7px;
+}
+
+.khoi_huongvi h3{
+    color: #2E7D32;
+    font-style: italic;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.khoi_huongvi .danh_sach{
+    display: flex;
+    gap: 20px;
+}
+
+.khoi_huongvi ul{
+    flex: 1;
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 0;
+}
+
+.khoi_huongvi li{
+    margin-bottom: 10px;
+}

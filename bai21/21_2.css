@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.trang {
+    display: grid;
+    grid-template-columns: 200px 1fr 160px;
+    grid-template-areas: "banner banner banner"
+                            "menu noidung qcao";
+    min-height: 100vh;
+}
+.banner {
+    grid-area: banner;
+    background: #C62828 url(Nen_banner.jpg) center / cover;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap:16px;
+    padding: 16px 20px;
+}
+.banner h1 {
+    margin: 0;
+    font-size: 22px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+.menu {
+    grid-area: menu;
+    background: linear-gradient(#C62828, #8E0000);
+}
+
+.menu a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+}
+.noidung {
+    grid-area: noidung;
+    background: #fff;
+    padding: 20px;
+}
+.noidung h2 {
+    color: #C62828;
+    margin-top: 0;
+}
+.menucon {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 24px;
+    background: #FFE082;
+    border-radius: 8px;
+    padding: 12px 28px;
+    margin: 0 0 20px;
+}
+.khoi {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+}
+.giua {
+    text-align: center;
+}
+.qcao {
+    grid-area: qcao;
+    padding: 16px 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.qcao img {
+    max-width: 100%;
+}
+@media (max-width: 800px) {
+    .trang {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "banner"
+            "menu"
+            "noidung"
+            "qcao";
+    }
+    .qcao {
+        flex-direction: row;
+        justify-content: center;
+    }
+}

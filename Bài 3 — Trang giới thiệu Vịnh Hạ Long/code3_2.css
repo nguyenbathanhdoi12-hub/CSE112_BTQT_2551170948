@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background: linear-gradient( #7ec8e3 ,#0a5c8a );
+    min-height: 100vh;
+}
+
+.khung{
+    width: 690px;
+    height: 380px;
+    margin: auto;
+    padding: 24px 13px;
+}
+
+.noidung{
+    width: 690px;
+    height: 330px;
+    padding: 14px 15px;
+    background:#ffffff;
+    border-radius: 8px;
+}
+
+h1{
+    color: #0b3d5c ;
+    text-align: center;
+    font-size: 23px;
+    line-height: 28px;
+    margin: 0 0 11px;
+}
+
+.mo-dau{
+    color: #ffffff;
+    background: #0b3d5c;
+    width: 620px;
+    height: 63px;
+    padding: 9px 14px;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 1.5;
+    border-radius: 5px;
+    margin-bottom: 14px;
+}
+.than-bai{
+    width: 625px;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.than-bai img{
+    float: right;
+    width: 210px;
+    height: 140px;
+    margin: 0 0 6px 14px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.than-bai p{
+    margin: 0 0 9px;
+}
+
+.than-bai p::first-letter{
+    float: left;
+    margin-right: 4px;
+    color: #0b3d5c;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 0.8;
+}

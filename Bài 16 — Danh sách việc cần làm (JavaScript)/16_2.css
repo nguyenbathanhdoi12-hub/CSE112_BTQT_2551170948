@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #f3f4f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.khung{
+    width: 600px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px gray;
+    overflow: hidden;
+}
+
+.tieude{
+    background-color: #6d28d9;
+    color: #ffffff;
+    padding: 24px 32px;
+}
+
+.tieude h1{
+    font-size: 24px;
+    margin-bottom: 6px;
+}
+
+.tieude p{
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+.them{
+    display: flex;
+    gap: 12px;
+    padding: 24px 32px 16px 32px;
+}
+
+.them input{
+    flex: 1;
+    padding: 10px 16px;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    font-size: 15px;
+    outline: none;
+}
+
+.them button{
+    color: #ffffff;
+    background-color: #6d28d9;
+    border: none;
+    padding: 10px 24px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.danhsach{
+    padding: 0 32px;
+}
+
+#dachsach_congviec{
+    list-style: none;
+}
+
+.muc_congviec{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 0;
+    border-bottom: 1px dashed #e5e7eb;
+}
+
+.muc_congviec:last-child{
+    border-bottom: none;
+}
+
+.noidung_muc{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    cursor: pointer;
+}
+
+.hop_kiem{
+    width: 18px;
+    height: 18px;
+    accent-color: #6d26d9;
+    cursor: pointer;
+}
+
+.muc_congviec.hoanthanh span{
+    text-decoration: line-through;
+    color: #9ca3af;
+}
+
+.nut_xoa{
+    background-color: #fde2e2;
+    color: #b91c1c;
+    border: none;
+    padding: 6px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.chan_trang{
+    padding: 16px 32px 24px 32px;
+    color: #6b7280;
+    font-size: 14px;
+}

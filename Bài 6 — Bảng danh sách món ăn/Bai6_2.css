@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+}
+
+.khung{
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px 30px;
+    background-color: bisque;
+}
+
+h2{
+    color: #E65100 ;
+    text-align: center;
+    margin: 10px 0 25px;
+    font-size: 28px;
+}
+
+.noidung{
+    display: flex;
+    align-items: center;
+    width: 95%;
+}
+
+.anh{
+    width: 30%;
+    text-align: center;
+}
+
+.anh img{
+    width: 210px;
+}
+
+.bang{
+    width: 70%;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 16px;
+    box-shadow: 5px 5px 10px gray;
+}
+
+th{
+    background-color: #E65100;
+    color: #ffffff;
+    text-align: left;
+    height: 35px;
+}
+
+th:first-child{
+    width: 70px;
+    text-align: center;
+}
+
+td{
+    height: 35px;
+    padding: 0 10px;
+    border-bottom: 1px solid  #E0D6C2 ;
+    background-color: #ffffff;
+}
+
+td:first-child{
+    text-align: center;
+}
+
+tbody tr:nth-child(even) td{
+    background-color: #FDF8EF ;
+}

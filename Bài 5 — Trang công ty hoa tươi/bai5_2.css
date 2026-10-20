@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    width: 850px;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+    color:  #C2185B;
+}
+
+.khung{
+    display: flex;
+    width: 650px;
+    margin: auto;
+}
+
+.anh{
+    width: 220px;
+}
+
+.anh img{
+    width: 170px;
+}
+
+h2{
+    background-color: #FFC0CB;
+    display: inline-block;
+    font-size: 16px;
+}
+
+ul{
+    margin-top: 5px;
+}
+
+ul:first-of-type{
+    list-style: square;
+}
+
+ul:last-of-type{
+    list-style: circle;
+}
+
+footer{
+    float: right;
+}

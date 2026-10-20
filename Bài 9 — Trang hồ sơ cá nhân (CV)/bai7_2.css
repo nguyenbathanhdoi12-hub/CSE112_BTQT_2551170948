@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding:30px 10px;
+    background-color: #eef2f6;
+}
+
+.cv{
+    width: 670px;
+    height: 295px;
+    margin:auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px #cfd5dc;
+}
+
+.trai{
+    float: left;
+    width: 270px;
+    height: 295px;
+    padding: 20px;
+    background: linear-gradient(#1565C0 ,#0d3f7a );
+    color: #ffffff;
+}
+
+.phai{
+    float: right;
+    width:390px;
+    height: 295px;
+    padding: 15px 22px;
+    background-color: #ffffff;
+}
+
+.hinhdaidien{
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    margin: 0 auto 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #1565C0;
+}
+
+h1{
+    margin: 5px 0;
+    text-align: center;
+    font-size: 18px;
+}
+
+.chucvu{
+    margin: 3px 0 15px;
+    text-align: center;
+    font-size: 11px;
+}
+
+.trai p{
+    margin: 8px 0;
+    font-size: 10px;
+}
+
+h2{
+    margin: 0 0 7px;
+    font-size: 14px;
+    color: #1565C0;
+    border-bottom: 1px solid #e2e8ef;
+    padding-bottom: 5px;
+}
+
+.phai p{
+    margin: 0 0 8px;
+    font-size: 11px;
+    line-height: 1.5;
+}
+
+.kynang span{
+    display: inline-block;
+    background-color: #e3f0ff;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    font-size: 10px;
+    padding: 5px 10px;
+    color: #0d3f7a;
+}
+
+a{
+    color: #1565C0;
+}

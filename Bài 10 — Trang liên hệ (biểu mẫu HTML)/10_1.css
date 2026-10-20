@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    background-color:#0f766e;
+    color: #ffffff;
+    width: 100%;
+    max-width: 650px;
+    padding: 24px 30px;
+}
+
+h2{
+    margin: 0 0 8px;
+    font-size: 22px;
+}
+
+p{
+    margin: 0;
+    font-size: 14px;
+}
+
+.khung{
+    width: 100%;
+    max-width: 650px;
+    background-color: #ffffff;
+    padding: 30px;
+    box-shadow: 0 2px 4px gray;
+    border-radius: 12px;
+}
+
+.dong{
+    display:grid;
+    grid-template-columns: repeat(2,minmax(0, 1fr));
+    gap: 18px;
+    margin-bottom: 18px;
+}
+
+.cot{
+    min-width: 0;
+}
+
+.dong_nd{
+    margin-bottom: 18px;
+}
+
+ label{
+    display: block;
+    color: #334155;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea{
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.checkbox{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 8px;
+}
+
+.checkbox label{
+    margin-bottom: 0;
+}
+
+.nut{
+    display: flex;
+    gap: 12px;
+}
+
+button{
+    padding: 10px 22px;
+    border: none;
+    font-weight: bold;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.gui{
+    background-color: #0f766e;
+    color: #ffffff;
+}
+
+.nhaplai{
+    background-color: #e2e8f0;
+    color: #334155;
+}
